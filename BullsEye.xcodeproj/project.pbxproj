@@ -15,12 +15,14 @@
 		A55E94361802A5740003E5B9 /* BullsEyeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A55E94351802A5740003E5B9 /* BullsEyeAppDelegate.m */; };
 		A55E94391802A5740003E5B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55E94371802A5740003E5B9 /* Main.storyboard */; };
 		A55E943C1802A5740003E5B9 /* BullsEyeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A55E943B1802A5740003E5B9 /* BullsEyeViewController.m */; };
-		A55E943E1802A5750003E5B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55E943D1802A5750003E5B9 /* Images.xcassets */; };
 		A55E94451802A5750003E5B9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55E94441802A5750003E5B9 /* XCTest.framework */; };
 		A55E94461802A5750003E5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55E94251802A5740003E5B9 /* Foundation.framework */; };
 		A55E94471802A5750003E5B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55E94291802A5740003E5B9 /* UIKit.framework */; };
 		A55E944F1802A5750003E5B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A55E944D1802A5750003E5B9 /* InfoPlist.strings */; };
 		A55E94511802A5750003E5B9 /* BullsEyeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A55E94501802A5750003E5B9 /* BullsEyeTests.m */; };
+		A55E945C1802E7460003E5B9 /* aboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A55E945B1802E7460003E5B9 /* aboutViewController.m */; };
+		A55E945E180301D70003E5B9 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = A55E945D180301D70003E5B9 /* BullsEye.html */; };
+		A55E946018030F190003E5B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55E945F18030F190003E5B9 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,12 +49,15 @@
 		A55E94381802A5740003E5B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A55E943A1802A5740003E5B9 /* BullsEyeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BullsEyeViewController.h; sourceTree = "<group>"; };
 		A55E943B1802A5740003E5B9 /* BullsEyeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullsEyeViewController.m; sourceTree = "<group>"; };
-		A55E943D1802A5750003E5B9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A55E94431802A5750003E5B9 /* BullsEyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A55E94441802A5750003E5B9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A55E944C1802A5750003E5B9 /* BullsEyeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BullsEyeTests-Info.plist"; sourceTree = "<group>"; };
 		A55E944E1802A5750003E5B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A55E94501802A5750003E5B9 /* BullsEyeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullsEyeTests.m; sourceTree = "<group>"; };
+		A55E945A1802E7460003E5B9 /* aboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aboutViewController.h; sourceTree = "<group>"; };
+		A55E945B1802E7460003E5B9 /* aboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aboutViewController.m; sourceTree = "<group>"; };
+		A55E945D180301D70003E5B9 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		A55E945F18030F190003E5B9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +117,14 @@
 		A55E942B1802A5740003E5B9 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				A55E945D180301D70003E5B9 /* BullsEye.html */,
 				A55E94341802A5740003E5B9 /* BullsEyeAppDelegate.h */,
 				A55E94351802A5740003E5B9 /* BullsEyeAppDelegate.m */,
 				A55E94371802A5740003E5B9 /* Main.storyboard */,
+				A55E945A1802E7460003E5B9 /* aboutViewController.h */,
+				A55E945B1802E7460003E5B9 /* aboutViewController.m */,
 				A55E943A1802A5740003E5B9 /* BullsEyeViewController.h */,
 				A55E943B1802A5740003E5B9 /* BullsEyeViewController.m */,
-				A55E943D1802A5750003E5B9 /* Images.xcassets */,
 				A55E942C1802A5740003E5B9 /* Supporting Files */,
 			);
 			path = BullsEye;
@@ -130,6 +137,7 @@
 				A55E942E1802A5740003E5B9 /* InfoPlist.strings */,
 				A55E94311802A5740003E5B9 /* main.m */,
 				A55E94331802A5740003E5B9 /* BullsEye-Prefix.pch */,
+				A55E945F18030F190003E5B9 /* Images.xcassets */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -229,7 +237,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A55E943E1802A5750003E5B9 /* Images.xcassets in Resources */,
+				A55E945E180301D70003E5B9 /* BullsEye.html in Resources */,
+				A55E946018030F190003E5B9 /* Images.xcassets in Resources */,
 				A55E94301802A5740003E5B9 /* InfoPlist.strings in Resources */,
 				A55E94391802A5740003E5B9 /* Main.storyboard in Resources */,
 			);
@@ -252,6 +261,7 @@
 			files = (
 				A55E94321802A5740003E5B9 /* main.m in Sources */,
 				A55E943C1802A5740003E5B9 /* BullsEyeViewController.m in Sources */,
+				A55E945C1802E7460003E5B9 /* aboutViewController.m in Sources */,
 				A55E94361802A5740003E5B9 /* BullsEyeAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +471,7 @@
 				A55E94561802A5750003E5B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A55E94571802A5750003E5B9 /* Build configuration list for PBXNativeTarget "BullsEyeTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +480,7 @@
 				A55E94591802A5750003E5B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
